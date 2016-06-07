@@ -7,6 +7,8 @@
  * Time: 6:07 PM
  */
 
+namespace AppCode;
+
 class RiskType
 {
     // All upcoming (i.e. unsettled) bets from customers that win at an unusual rate

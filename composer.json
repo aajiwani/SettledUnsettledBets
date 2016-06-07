@@ -1,0 +1,16 @@
+{
+    "name": "amirali/settled-unsettled-bets",
+    "description": "A fun project",
+    "authors": [
+        {
+            "name": "Amir Ali Jiwani",
+            "email": "amirali.jiwani89@gmail.com"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "AppCode\\": "AppCode/"
+        }
+    }
+}

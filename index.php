@@ -6,6 +6,9 @@
  * Time: 5:53 PM
  */
 
+require_once('vendor/autoload.php');
+use AppCode\UserTuple;
+
 ?>
 
 <html>
@@ -22,3 +25,10 @@
     </form>
 </body>
 </html>
+
+<?php
+
+$user = new UserTuple();
+var_dump($user);
+
+?>
