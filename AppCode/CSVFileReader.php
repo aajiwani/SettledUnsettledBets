@@ -24,9 +24,11 @@ class CSVFileReader
         {
             $result[$headerRow[$i]] = $dataRow[$i];
         }
+
+        return $result;
     }
 
-    public function ReadFile($filePath, $hasHeader, CSVTransformer $transformMethod = null)
+    public function ReadFile($filePath, $hasHeader, CSVTransformer $transformer = null)
     {
         if (isset($filePath))
         {
@@ -45,8 +47,8 @@ class CSVFileReader
                 while (($data = fgetcsv($handle, 5000, ",")) !== FALSE)
                 {
                     $rowData = $this->AssociateHeader($header, $data);
-                    if ($transformMethod !== null)
-                        $rowData = $transformMethod($count++, $rowData, $hasHeader);
+                    if ($transformer !== null)
+                        $rowData = $transformer->Transform($count++, $rowData, $hasHeader);
 
                     $resultSet[] = $rowData;
                 }
