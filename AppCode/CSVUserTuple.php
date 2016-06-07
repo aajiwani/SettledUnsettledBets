@@ -12,4 +12,4 @@ namespace AppCode;
 class CSVUserTuple extends UserTuple
 {
     public $rowNum;
-}
+};

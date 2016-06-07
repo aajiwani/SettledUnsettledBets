@@ -7,7 +7,9 @@
             "email": "amirali.jiwani89@gmail.com"
         }
     ],
-    "require": {},
+    "require": {
+        "codeception/codeception": "^2.2"
+    },
     "autoload": {
         "psr-4": {
             "AppCode\\": "AppCode/"
