@@ -9,10 +9,11 @@
 namespace AppCode\CSVModule;
 
 
-class CSVRiskUserTuple extends CSVUserTuple
+class CSVRiskUserTuple
 {
     protected $csvTuple;
     private $riskType;
+    private $history;
 
     public function __construct(CSVUserTuple $obj)
     {
@@ -32,5 +33,15 @@ class CSVRiskUserTuple extends CSVUserTuple
     public function GetAssociatedData()
     {
         return $this->csvTuple;
+    }
+
+    public function SetCustomerHistory($history)
+    {
+        $this->history = $history;
+    }
+
+    public function GetCustomerHistory()
+    {
+        return $this->history;
     }
 }

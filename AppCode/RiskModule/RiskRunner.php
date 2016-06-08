@@ -44,8 +44,12 @@ class RiskRunner
 
         foreach ($unSettledResult as $row)
         {
+            $customerHistory = RiskAnalysisDataExtractor::FindCustomerHistoryById($row->customer, $riskAnalysisData);
+            if ($customerHistory === null)
+                continue;
+
             $riskType = $riskClient->process(new RiskRequest(
-                RiskAnalysisDataExtractor::FindCustomerHistoryById($row->customer, $riskAnalysisData),
+                $customerHistory,
                 $row
             ));
 
@@ -56,6 +60,7 @@ class RiskRunner
 
             $riskTuple = new CSVRiskUserTuple($row);
             $riskTuple->SetRiskType($riskType);
+            $riskTuple->SetCustomerHistory($customerHistory);
             $result[] = $riskTuple;
         }
 

@@ -31,6 +31,9 @@
             <th>Stake</th>
             <th>To Win</th>
             <th>Risk Type</th>
+            <th>Wins</th>
+            <th>Losses</th>
+            <th>Average Bets</th>
         </tr>
         </thead>
         <tbody>
@@ -43,11 +46,11 @@
                 switch ($row->GetRiskType())
                 {
                     case \AppCode\RiskModule\RiskType::RISKY:
-                        $rowClass = "info";
+                        $rowClass = "danger";
                         $resultTypeStr = "risky";
                         break;
                     case \AppCode\RiskModule\RiskType::UNUSUAL:
-                        $rowClass = "warning";
+                        $rowClass = "danger";
                         $resultTypeStr = "unusual";
                         break;
                     case \AppCode\RiskModule\RiskType::HIGHLY_UNUSUAL:
@@ -55,7 +58,7 @@
                         $resultTypeStr = "highly unusual";
                         break;
                     case \AppCode\RiskModule\RiskType::OTHER_UNUSUAL:
-                        $rowClass = "active";
+                        $rowClass = "danger";
                         $resultTypeStr = "other unusual";
                         break;
                     default:
@@ -65,6 +68,7 @@
                 }
 
                 $data = $row->GetAssociatedData();
+                $history = $row->GetCustomerHistory();
         ?>
                 <tr class="<?php echo $rowClass; ?>">
                     <td><?php echo $data->customer; ?></td>
@@ -73,6 +77,9 @@
                     <td><?php echo $data->stake; ?></td>
                     <td><?php echo $data->win; ?></td>
                     <td><?php echo $resultTypeStr ?></td>
+                    <td><?php echo $history->GetTotalWins() ?></td>
+                    <td><?php echo $history->GetTotalLosses() ?></td>
+                    <td><?php echo $history->GetAverageBet() ?></td>
                 </tr>
         <?php
             }
