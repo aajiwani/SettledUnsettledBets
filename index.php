@@ -25,10 +25,3 @@ use AppCode\UserTuple;
     </form>
 </body>
 </html>
-
-<?php
-
-$user = new UserTuple();
-var_dump($user);
-
-?>
