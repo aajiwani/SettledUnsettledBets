@@ -40,4 +40,20 @@ class RiskAnalysisDataExtractor
     {
         return array_values((array)$obj);
     }
+
+    public static function FindCustomerHistoryById($customerId, $historyRecords)
+    {
+        $result = array_filter(
+            $historyRecords,
+            function ($e) use ($customerId)
+            {
+                return $e->GetCustomerId() === $customerId;
+            }
+        );
+
+        if (count($result) === 1)
+            return current($result);
+        else
+            return null;
+    }
 }

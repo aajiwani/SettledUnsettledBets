@@ -9,11 +9,20 @@
 
 namespace AppCode\RiskModule\RiskIdentifier;
 
+use AppCode\CSVModule\CSVUserTuple;
+use AppCode\RiskModule\RiskType;
+
 class OtherUnusualRiskHandler extends RiskHandler
 {
-
-    protected function process($request)
+    protected function process(RiskRequest $request)
     {
-        // TODO: Implement process() method.
+        if ($request->GetAssociatedData()->win >= 1000)
+        {
+            return RiskType::OTHER_UNUSUAL;
+        }
+        else
+        {
+            return null;
+        }
     }
 }

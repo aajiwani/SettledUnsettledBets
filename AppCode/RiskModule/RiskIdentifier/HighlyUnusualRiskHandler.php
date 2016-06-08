@@ -9,11 +9,21 @@
 
 namespace AppCode\RiskModule\RiskIdentifier;
 
+use AppCode\RiskModule\RiskType;
+
 class HighlyUnusualRiskHandler extends RiskHandler
 {
 
-    protected function process($request)
+    protected function process(RiskRequest $request)
     {
-        // TODO: Implement process() method.
+        $result = $request->GetAssociatedData()->stake / $request->GetHistory()->GetAverageBet();
+        if ($result >= 30)
+        {
+            return RiskType::HIGHLY_UNUSUAL;
+        }
+        else
+        {
+            return null;
+        }
     }
 }

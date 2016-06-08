@@ -9,11 +9,20 @@
 
 namespace AppCode\RiskModule\RiskIdentifier;
 
+use AppCode\RiskModule\RiskType;
+
 class RiskyRiskHandler extends RiskHandler
 {
 
-    protected function process($request)
+    protected function process(RiskRequest $request)
     {
-        // TODO: Implement process() method.
+        if ($request->GetHistory()->IsUnusualAtWinning())
+        {
+            return RiskType::RISKY;
+        }
+        else
+        {
+            return null;
+        }
     }
 }

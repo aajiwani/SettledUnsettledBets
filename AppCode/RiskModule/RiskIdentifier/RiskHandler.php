@@ -9,11 +9,13 @@
 
 namespace AppCode\RiskModule\RiskIdentifier;
 
+use AppCode\CSVModule\CSVUserTuple;
+
 abstract class RiskHandler
 {
     private $successor = null;
 
-    final public function setSuccessor(Handler $handler)
+    final public function setSuccessor(RiskHandler $handler)
     {
         if ($this->successor === null) {
             $this->successor = $handler;
@@ -32,5 +34,5 @@ abstract class RiskHandler
         return $response;
     }
 
-    abstract protected function process($request);
+    abstract protected function process(RiskRequest $request);
 }

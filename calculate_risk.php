@@ -30,7 +30,23 @@ $unSettledResult = $reader->ReadFile($unSettledFile, true, $unSettledTransformer
 
 $riskAnalysisData = RiskAnalysisDataExtractor::ExtractData($settledResult);
 
-foreach ($riskAnalysisData as $analysisPoint)
+$handlers = [
+    new \AppCode\RiskModule\RiskIdentifier\OtherUnusualRiskHandler(),
+    new \AppCode\RiskModule\RiskIdentifier\HighlyUnusualRiskHandler(),
+    new \AppCode\RiskModule\RiskIdentifier\UnusualRiskHandler(),
+    new \AppCode\RiskModule\RiskIdentifier\RiskyRiskHandler()
+];
+
+$riskClient = new \AppCode\RiskModule\RiskIdentifier\RiskIdentifierClient($handlers);
+foreach ($unSettledResult as $row)
+{
+    var_dump($riskClient->process(new \AppCode\RiskModule\RiskIdentifier\RiskRequest(
+        RiskAnalysisDataExtractor::FindCustomerHistoryById($row->customer, $riskAnalysisData),
+        $row
+    )));
+}
+
+/*foreach ($riskAnalysisData as $analysisPoint)
 {
     var_dump($analysisPoint);
     /*print_r([
@@ -38,7 +54,7 @@ foreach ($riskAnalysisData as $analysisPoint)
         $analysisPoint->IsUnusualAtWinning(),
         $analysisPoint->GetAverageBet()
     ]);*/
-}
+//}
 //echo json_encode($riskAnalysisData);
 //$user = new UserTuple();
 //var_dump($user);
