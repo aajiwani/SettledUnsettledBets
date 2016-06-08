@@ -11,15 +11,18 @@ namespace AppCode\RiskModule;
 
 class RiskType
 {
+    // When customer is out of risk
+    const NONE = 0;
+
     // All upcoming (i.e. unsettled) bets from customers that win at an unusual rate
-    const RISKY = 0;
+    const RISKY = 1;
 
     // Bets where the stake is more than 10 times higher than that customer’s average bet in their betting history
-    const UNUSUAL = 1;
+    const UNUSUAL = 2;
 
     // Bets where the stake is more than 30 times higher than that customer’s average bet in their betting history
-    const HIGHLY_UNUSUAL = 2;
+    const HIGHLY_UNUSUAL = 3;
 
     // Bets where the amount to be won is $1000 or more.
-    const OTHER_UNUSUAL = 3;
+    const OTHER_UNUSUAL = 4;
 };

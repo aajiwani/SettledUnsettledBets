@@ -6,9 +6,6 @@
  * Time: 5:53 PM
  */
 
-require_once('vendor/autoload.php');
-use AppCode\UserTuple;
-
 ?>
 
 <html>
@@ -18,9 +15,12 @@ use AppCode\UserTuple;
         Settled File:
         <input type="file" name="settled_file" />
         <br />
+        <br />
         Un-Settled File:
         <input type="file" name="unsettled_file" />
 
+        <br />
+        <br />
         <input type="submit" value="Calculate Risk" name="submit">
     </form>
 </body>
