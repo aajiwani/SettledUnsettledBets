@@ -22,79 +22,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/index.php">
+      <file leaf-file-name="CSVUserTuple.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/AppCode/CSVModule/CSVUserTuple.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-14.903226">
-              <caret line="21" column="47" selection-start-line="21" selection-start-column="33" selection-end-line="21" selection-end-column="47" />
-              <folding>
-                <element signature="e#6#89#0#PHP" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="calculate_risk.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/calculate_risk.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.56578946">
-              <caret line="26" column="32" selection-start-line="26" selection-start-column="32" selection-end-line="26" selection-end-column="32" />
-              <folding>
-                <element signature="e#6#98#0#PHP" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="RiskAnalysisCustomerTuple.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/AppCode/RiskAnalysisCustomerTuple.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-6.387097">
-              <caret line="14" column="28" selection-start-line="14" selection-start-column="28" selection-end-line="14" selection-end-column="28" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="RiskAnalysisDataExtractor.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/AppCode/RiskAnalysisDataExtractor.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-21.612904">
-              <caret line="32" column="48" selection-start-line="32" selection-start-column="48" selection-end-line="32" selection-end-column="48" />
-              <folding>
-                <element signature="e#6#90#0#PHP" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="CSVTransformer.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/AppCode/CSVTransformer.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="10" column="24" selection-start-line="10" selection-start-column="10" selection-end-line="10" selection-end-column="24" />
-              <folding>
-                <element signature="e#6#89#0#PHP" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="CSVToUserTupleTransformer.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/AppCode/CSVToUserTupleTransformer.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="19" column="91" selection-start-line="19" selection-start-column="91" selection-end-line="19" selection-end-column="91" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="CSVFileReader.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/AppCode/CSVFileReader.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="27" column="23" selection-start-line="27" selection-start-column="23" selection-end-line="27" selection-end-column="23" />
+            <state vertical-scroll-proportion="0.12061404">
+              <caret line="10" column="33" selection-start-line="10" selection-start-column="33" selection-end-line="10" selection-end-column="33" />
               <folding />
             </state>
           </provider>
@@ -116,16 +48,28 @@
         <option value="$PROJECT_DIR$/AppCode/RiskType.php" />
         <option value="$PROJECT_DIR$/index.php" />
         <option value="$PROJECT_DIR$/AppCode/CSVUserTuple.php" />
-        <option value="$PROJECT_DIR$/composer.json" />
         <option value="$PROJECT_DIR$/vendor/bin/tests/unit/CSVToUserTupleTransformationCept.php" />
         <option value="$PROJECT_DIR$/AppCode/CSVTransformerInterface.php" />
         <option value="$PROJECT_DIR$/AppCode/CSVToUserTupleTransformer.php" />
         <option value="$PROJECT_DIR$/AppCode/CSVFileReader.php" />
         <option value="$PROJECT_DIR$/AppCode/UserWinsCalculator.php" />
         <option value="$PROJECT_DIR$/AppCode/RiskAnalysisCustomerTupleBuilder.php" />
+        <option value="$PROJECT_DIR$/AppCode/CSVToUserTupleTransformerSettled.php" />
+        <option value="$PROJECT_DIR$/AppCode/CSVToUserTupleTransformerUnsettled.php" />
         <option value="$PROJECT_DIR$/AppCode/RiskAnalysisDataExtractor.php" />
         <option value="$PROJECT_DIR$/AppCode/RiskAnalysisCustomerTuple.php" />
+        <option value="$PROJECT_DIR$/AppCode/CSVModule/CSVFileReader.php" />
+        <option value="$PROJECT_DIR$/AppCode/CSVModule/CSVToUserTupleTransformerSettled.php" />
+        <option value="$PROJECT_DIR$/AppCode/CSVModule/CSVToUserTupleTransformerUnsettled.php" />
+        <option value="$PROJECT_DIR$/AppCode/CSVModule/CSVTransformer.php" />
+        <option value="$PROJECT_DIR$/AppCode/RiskModule/RiskAnalysisCustomerTuple.php" />
+        <option value="$PROJECT_DIR$/AppCode/RiskModule/RiskAnalysisDataExtractor.php" />
+        <option value="$PROJECT_DIR$/AppCode/RiskModule/RiskType.php" />
+        <option value="$PROJECT_DIR$/AppCode/UserModule/UserTuple.php" />
         <option value="$PROJECT_DIR$/calculate_risk.php" />
+        <option value="$PROJECT_DIR$/composer.json" />
+        <option value="$PROJECT_DIR$/vendor/composer/autoload_psr4.php" />
+        <option value="$PROJECT_DIR$/AppCode/CSVModule/CSVUserTuple.php" />
       </list>
     </option>
   </component>
@@ -207,7 +151,79 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="vendor" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SettledUnsettledBets" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SettledUnsettledBets" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="vendor" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="composer" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SettledUnsettledBets" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SettledUnsettledBets" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="AppCode" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="UserModule" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SettledUnsettledBets" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SettledUnsettledBets" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="AppCode" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="RiskModule" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SettledUnsettledBets" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SettledUnsettledBets" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="AppCode" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="CSVModule" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -224,7 +240,13 @@
     <property name="settings.editor.splitter.proportion" value="0.2" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Amirali\Documents\GitHub\SettledUnsettledBets\AppCode" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Amirali\Documents\GitHub\SettledUnsettledBets\AppCode\UserModule" />
+      <recent name="C:\Users\Amirali\Documents\GitHub\SettledUnsettledBets\AppCode\RiskModule" />
+      <recent name="C:\Users\Amirali\Documents\GitHub\SettledUnsettledBets\AppCode\CSVModule" />
       <recent name="C:\Users\Amirali\Documents\GitHub\SettledUnsettledBets\AppCode" />
     </key>
   </component>
@@ -294,6 +316,14 @@
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32977098" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
+  <component name="Vcs.Log.UiProperties">
+    <option name="RECENTLY_FILTERED_USER_GROUPS">
+      <collection />
+    </option>
+    <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+      <collection />
+    </option>
+  </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
@@ -320,11 +350,12 @@
           <caret line="16" column="26" selection-start-line="16" selection-start-column="26" selection-end-line="16" selection-end-column="26" />
           <folding>
             <element signature="e#6#98#0#PHP" expanded="true" />
+            <element signature="e#100#155#0#PHP" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/AppCode/CSVTransformer.php">
+    <entry file="file://$PROJECT_DIR$/AppCode/CSVModule/CSVTransformer.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="10" column="24" selection-start-line="10" selection-start-column="10" selection-end-line="10" selection-end-column="24" />
@@ -334,7 +365,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/AppCode/CSVToUserTupleTransformer.php">
+    <entry file="file://$PROJECT_DIR$/AppCode/CSVModule/CSVToUserTupleTransformerUnsettled.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="19" column="91" selection-start-line="19" selection-start-column="91" selection-end-line="19" selection-end-column="91" />
@@ -342,7 +373,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/AppCode/CSVFileReader.php">
+    <entry file="file://$PROJECT_DIR$/AppCode/CSVModule/CSVFileReader.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="27" column="23" selection-start-line="27" selection-start-column="23" selection-end-line="27" selection-end-column="23" />
@@ -360,18 +391,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/AppCode/CSVFileReader.php">
+    <entry file="file://$PROJECT_DIR$/AppCode/CSVModule/CSVFileReader.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/autoload.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
@@ -382,72 +406,51 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/composer/autoload_psr4.php">
+    <entry file="file://$PROJECT_DIR$/AppCode/RiskModule/RiskType.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/AppCode/RiskType.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-6.387097">
-          <caret line="9" column="18" selection-start-line="9" selection-start-column="18" selection-end-line="9" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/composer.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.29763246">
-          <caret line="12" column="17" selection-start-line="12" selection-start-column="17" selection-end-line="12" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/AppCode/CSVFileReader.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="27" column="23" selection-start-line="27" selection-start-column="23" selection-end-line="27" selection-end-column="23" />
+        <state vertical-scroll-proportion="-2.8387096">
+          <caret line="9" column="29" selection-start-line="9" selection-start-column="29" selection-end-line="9" selection-end-column="29" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/AppCode/CSVToUserTupleTransformer.php">
+    <entry file="file://$PROJECT_DIR$/AppCode/RiskModule/RiskAnalysisCustomerTuple.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="19" column="91" selection-start-line="19" selection-start-column="91" selection-end-line="19" selection-end-column="91" />
+        <state vertical-scroll-proportion="-2.1290324">
+          <caret line="8" column="26" selection-start-line="8" selection-start-column="26" selection-end-line="8" selection-end-column="26" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/AppCode/CSVTransformer.php">
+    <entry file="file://$PROJECT_DIR$/AppCode/CSVModule/CSVTransformer.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="10" column="24" selection-start-line="10" selection-start-column="10" selection-end-line="10" selection-end-column="24" />
+        <state vertical-scroll-proportion="0.19298245">
+          <caret line="8" column="28" selection-start-line="8" selection-start-column="28" selection-end-line="8" selection-end-column="28" />
           <folding>
             <element signature="e#6#89#0#PHP" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/AppCode/CSVUserTuple.php">
+    <entry file="file://$PROJECT_DIR$/AppCode/CSVModule/CSVToUserTupleTransformerUnsettled.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.21710527">
-          <caret line="14" column="2" selection-start-line="14" selection-start-column="2" selection-end-line="14" selection-end-column="2" />
+        <state vertical-scroll-proportion="0.07236842">
+          <caret line="8" column="28" selection-start-line="8" selection-start-column="28" selection-end-line="8" selection-end-column="28" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/AppCode/UserTuple.php">
+    <entry file="file://$PROJECT_DIR$/AppCode/CSVModule/CSVToUserTupleTransformerSettled.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.3377193">
-          <caret line="19" column="17" selection-start-line="19" selection-start-column="11" selection-end-line="19" selection-end-column="17" />
+        <state vertical-scroll-proportion="0.07236842">
+          <caret line="8" column="27" selection-start-line="8" selection-start-column="18" selection-end-line="8" selection-end-column="27" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-14.903226">
+        <state vertical-scroll-proportion="0.5065789">
           <caret line="21" column="47" selection-start-line="21" selection-start-column="33" selection-end-line="21" selection-end-column="47" />
           <folding>
             <element signature="e#6#89#0#PHP" expanded="true" />
@@ -455,31 +458,80 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/AppCode/RiskAnalysisDataExtractor.php">
+    <entry file="file://$PROJECT_DIR$/vendor/autoload.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-21.612904">
-          <caret line="32" column="48" selection-start-line="32" selection-start-column="48" selection-end-line="32" selection-end-column="48" />
-          <folding>
-            <element signature="e#6#90#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/AppCode/RiskAnalysisCustomerTuple.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-6.387097">
-          <caret line="14" column="28" selection-start-line="14" selection-start-column="28" selection-end-line="14" selection-end-column="28" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/calculate_risk.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.56578946">
-          <caret line="26" column="32" selection-start-line="26" selection-start-column="32" selection-end-line="26" selection-end-column="32" />
+        <state vertical-scroll-proportion="-4.2580647">
+          <caret line="6" column="3" selection-start-line="6" selection-start-column="3" selection-end-line="6" selection-end-column="3" />
           <folding>
             <element signature="e#6#98#0#PHP" expanded="true" />
+            <element signature="e#100#155#0#PHP" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AppCode/CSVModule/CSVFileReader.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.07236842">
+          <caret line="8" column="27" selection-start-line="8" selection-start-column="18" selection-end-line="8" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AppCode/RiskModule/RiskAnalysisDataExtractor.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.03508772">
+          <caret line="8" column="28" selection-start-line="8" selection-start-column="18" selection-end-line="8" selection-end-column="28" />
+          <folding>
+            <element signature="e#6#90#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AppCode/UserModule/UserTuple.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.096491225">
+          <caret line="9" column="28" selection-start-line="9" selection-start-column="18" selection-end-line="9" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/composer.lock">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/composer/autoload_psr4.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/composer.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.421646">
+          <caret line="17" column="57" selection-start-line="17" selection-start-column="57" selection-end-line="17" selection-end-column="57" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AppCode/CSVModule/CSVUserTuple.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.12061404">
+          <caret line="10" column="33" selection-start-line="10" selection-start-column="33" selection-end-line="10" selection-end-column="33" />
+          <folding />
         </state>
       </provider>
     </entry>

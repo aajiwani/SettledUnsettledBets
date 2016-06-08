@@ -6,7 +6,9 @@
  * Time: 6:26 PM
  */
 
-namespace AppCode;
+namespace AppCode\CSVModule;
+
+use AppCode\UserModule\UserTuple;
 
 
 class CSVUserTuple extends UserTuple

@@ -6,7 +6,11 @@
  * Time: 11:52 PM
  */
 
-namespace AppCode;
+use AppCode\CSVModule\CSVToUserTupleTransformerSettled;
+use AppCode\CSVModule\CSVToUserTupleTransformerUnsettled;
+use AppCode\CSVModule\CSVFileReader;
+use AppCode\RiskModule\RiskAnalysisDataExtractor;
+
 require_once('vendor/autoload.php');
 
 if (!isset($_FILES["settled_file"]) || !isset($_FILES["unsettled_file"]))
@@ -18,21 +22,22 @@ if (!isset($_FILES["settled_file"]) || !isset($_FILES["unsettled_file"]))
 $settledFile = $_FILES["settled_file"]["tmp_name"];
 $unSettledFile = $_FILES["unsettled_file"]["tmp_name"];
 
-$transformer = new CSVToUserTupleTransformer();
+$settledTransformer = new CSVToUserTupleTransformerSettled();
+$unSettledTransformer = new CSVToUserTupleTransformerUnsettled();
 $reader = new CSVFileReader();
-$settledResult = $reader->ReadFile($settledFile, true, $transformer);
-$unSettledResult = $reader->ReadFile($unSettledFile, true, $transformer);
+$settledResult = $reader->ReadFile($settledFile, true, $settledTransformer);
+$unSettledResult = $reader->ReadFile($unSettledFile, true, $unSettledTransformer);
 
 $riskAnalysisData = RiskAnalysisDataExtractor::ExtractData($settledResult);
-$riskAnalysisCasted = (array)$riskAnalysisData;
 
-foreach ($riskAnalysisCasted as $analysisPoint)
+foreach ($riskAnalysisData as $analysisPoint)
 {
-    print_r([
+    var_dump($analysisPoint);
+    /*print_r([
         $analysisPoint->GetCustomerId(),
         $analysisPoint->IsUnusualAtWinning(),
         $analysisPoint->GetAverageBet()
-    ]);
+    ]);*/
 }
 //echo json_encode($riskAnalysisData);
 //$user = new UserTuple();

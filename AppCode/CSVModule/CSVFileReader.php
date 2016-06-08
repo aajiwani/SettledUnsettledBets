@@ -6,7 +6,7 @@
  * Time: 6:27 PM
  */
 
-namespace AppCode;
+namespace AppCode\CSVModule;
 
 
 class CSVFileReader

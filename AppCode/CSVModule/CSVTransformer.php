@@ -6,7 +6,7 @@
  * Time: 6:48 PM
  */
 
-namespace AppCode;
+namespace AppCode\CSVModule;
 
 interface CSVTransformer
 {

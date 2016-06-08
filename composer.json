@@ -12,7 +12,10 @@
     },
     "autoload": {
         "psr-4": {
-            "AppCode\\": "AppCode/"
+            "AppCode\\": "AppCode/",
+            "AppCode\\CSVModule\\": "AppCode/CSVModule/",
+            "AppCode\\RiskModule\\": "AppCode/RiskModule/",
+            "AppCode\\UserModule\\": "AppCode/UserModule/"
         }
     }
 }

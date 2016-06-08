@@ -7,7 +7,7 @@
  * Time: 6:07 PM
  */
 
-namespace AppCode;
+namespace AppCode\RiskModule;
 
 class RiskType
 {

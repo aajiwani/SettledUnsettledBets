@@ -6,7 +6,7 @@
  * Time: 10:50 AM
  */
 
-namespace AppCode;
+namespace AppCode\RiskModule;
 
 
 class RiskAnalysisCustomerTuple
@@ -62,6 +62,11 @@ class RiskAnalysisCustomerTuple
 
     public function IsUnusualAtWinning()
     {
+        if ($this->GetTotalWins() + $this->GetTotalLosses() !== count($this->bets))
+        {
+            return false;
+        }
+
         $percentageOfWins = ($this->GetTotalWins() / ($this->GetTotalLosses() + $this->GetTotalWins())) * 100;
         if ($percentageOfWins >= 60)
             return true;

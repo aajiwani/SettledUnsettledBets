@@ -6,7 +6,7 @@
  * Time: 10:55 AM
  */
 
-namespace AppCode;
+namespace AppCode\RiskModule;
 
 class RiskAnalysisDataExtractor
 {
@@ -33,6 +33,11 @@ class RiskAnalysisDataExtractor
             $result->{strval($data->customer)}->AddBet($data->stake);
         }
 
-        return $result;
+        return self::ConvertToArray($result);
+    }
+
+    private static function ConvertToArray($obj)
+    {
+        return array_values((array)$obj);
     }
 }

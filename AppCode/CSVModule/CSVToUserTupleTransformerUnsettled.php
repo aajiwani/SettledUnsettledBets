@@ -6,9 +6,9 @@
  * Time: 6:38 PM
  */
 
-namespace AppCode;
+namespace AppCode\CSVModule;
 
-class CSVToUserTupleTransformer implements CSVTransformer
+class CSVToUserTupleTransformerUnsettled implements CSVTransformer
 {
     public function Transform($rowNumber, $rowAssociatedData, $hasHeader)
     {
@@ -17,7 +17,7 @@ class CSVToUserTupleTransformer implements CSVTransformer
         $user->event = intval(($hasHeader) ? $rowAssociatedData['Event'] : $rowAssociatedData[1]);
         $user->participant = intval(($hasHeader) ? $rowAssociatedData['Participant'] : $rowAssociatedData[2]);
         $user->stake = intval(($hasHeader) ? $rowAssociatedData['Stake'] : $rowAssociatedData[3]);
-        $user->win = intval(($hasHeader) ? $rowAssociatedData['Win'] : $rowAssociatedData[4]);
+        $user->win = intval(($hasHeader) ? $rowAssociatedData['ToWin'] : $rowAssociatedData[4]);
         $user->rowNum = $rowNumber;
 
         return $user;

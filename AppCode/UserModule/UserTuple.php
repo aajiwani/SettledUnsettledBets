@@ -7,7 +7,7 @@
  * Time: 6:09 PM
  */
 
-namespace AppCode;
+namespace AppCode\UserModule;
 
 class UserTuple
 {
